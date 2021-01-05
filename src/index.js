@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloWorld from './components/HelloWorld';
+
+
+import App from './containers/App';
 
 ReactDOM.render(
-  <HelloWorld />
+  <App />
  ,
   document.getElementById('root')
 );
